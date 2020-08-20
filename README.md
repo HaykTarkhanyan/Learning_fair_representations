@@ -13,10 +13,11 @@ There are 2 implementations on which this code is based on.
 </ol>
 
 I tried to write implementation that would be easy to understand cause implemetations above where quite bad to be honest here is a first line of code from original implemenation   
-* Warning: Code below is pretty bad, proceed w/ caution. Hope to refactor in the next 5 years.*
+* Warning: Code below is pretty bad, proceed w/ caution. Hope to refactor in the next 5 years.
 
 Best of luck, 
 - Hayk
-"""
+
+
 Date finished - 20.08.2020
-"""
+
