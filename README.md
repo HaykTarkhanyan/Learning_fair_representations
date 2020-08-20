@@ -16,7 +16,7 @@ I tried to write implementation that would be easy to understand cause implemeta
 * Warning: Code below is pretty bad, proceed w/ caution. Hope to refactor in the next 5 years.
 
 Best of luck, 
-- Hayk
+-Hayk
 
 
 Date finished - 20.08.2020
