@@ -1,0 +1,24 @@
+LOSSES
+L_x - scalar, ensures new representation to retain as much info as possible
+      (sum of squared differences) -> corresponding hyperparamanters A_x
+L_y - scalar, ensures good classification 
+      (mean log loss) -> corresponding hyperparamanters A_y
+L_z - scalar, ensures statistical parity
+      (sum of absolute differences) -> corresponding hyperparamanters A_z
+
+
+SHAPES OF PARAMS
+
+alpha0 - (num_featues, )
+alpha1 - (num_featues, )
+
+w - (num_prototypes, )
+v - (num_prototypes, num_features)
+
+dists - (num_elements, num_prototypes)
+
+M_nk - (num_elements, num_prototypes)
+M_k - (num_prototypes)
+
+x_n_hat - New representation of data (num_examples, num_featues) 
+y_hat - New representation's labels (num_examples, )
