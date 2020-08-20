@@ -15,7 +15,7 @@ from sklearn.preprocessing import StandardScaler
 from implem_helpers import *
 
 # data is preprocessed just like in paper, using command pd.get_dummies()
-data = pd.read_csv('datasets//German//german.csv')
+data = pd.read_csv('german.csv')
 
 AGE_SENSITIVE = 28  # Since I wasn't able to find out how paper's authors 
                     # seperated into sensitive and non_sensitive classes 
