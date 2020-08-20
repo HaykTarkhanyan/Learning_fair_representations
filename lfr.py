@@ -7,6 +7,8 @@
 իրանը բասսեիննա լվանում
 """
 
+# date finished -> 20.08.2020
+
 import numpy as np
 import pandas as pd
 import scipy.optimize as optim
