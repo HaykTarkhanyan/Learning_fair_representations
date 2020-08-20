@@ -13,8 +13,9 @@ There are 2 implementations on which this code is based on.
 </ol>
 
 I tried to write implementation that would be easy to understand cause implemetations above where quite bad to be honest. Feel free to open issues if you need any help. 
+
 Best of luck, 
--Hayk
+Hayk
 
 
 Date finished - 20.08.2020
