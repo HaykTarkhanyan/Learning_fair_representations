@@ -12,9 +12,7 @@ There are 2 implementations on which this code is based on.
 <li>https://github.com/zjelveh/learning-fair-representations</li>
 </ol>
 
-I tried to write implementation that would be easy to understand cause implemetations above where quite bad to be honest here is a first line of code from original implemenation   
-* Warning: Code below is pretty bad, proceed w/ caution. Hope to refactor in the next 5 years.
-
+I tried to write implementation that would be easy to understand cause implemetations above where quite bad to be honest. Feel free to open issues if you need any help. 
 Best of luck, 
 -Hayk
 
