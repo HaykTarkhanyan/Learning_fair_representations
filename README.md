@@ -4,7 +4,7 @@ about protected attributes
 
 Paper: http://proceedings.mlr.press/v28/zemel13.html
 
-My implementation most importantly **contains docstring** and comments, and is **vectoried**(others had awful for loops)
+This implementation most importantly **contains docstring** and comments, and is **vectoried**(others had awful for loops)
 
 There are 2 implementations on which this code is based on.
 <ol>
