@@ -145,8 +145,8 @@ def y_hat(M_nk, w):
 
 
 def optim_objective(params, data_sensitive, data_non_sensitive, y_sensitive,
-                    y_non_sensitive, NUM_PROTOTYPES=10, A_x=0.01, A_y=0.1, A_z=0.5,
-                    print_every=100, inference=False):
+                    y_non_sensitive,  inference=False, NUM_PROTOTYPES=10, A_x=0.01, A_y=0.1, A_z=0.5,
+                    print_every=100):
     """
     Function gathers all the helper functions to calculate overall loss
 
@@ -158,16 +158,15 @@ def optim_objective(params, data_sensitive, data_non_sensitive, y_sensitive,
     data_non_sensitive - similar to data_sensitive (num_non_senitive_examplesm num_features)
     y_sensitive - labels for sensitive group (num_sensitive_examples, )
     y_non_sensitive - similar to y_sensitive
+    inference - (optional) if True than will return new dataset instead of loss
     NUM_PROTOTYPES - (optional), default 10
     A_x - (optional) hyperparameters for loss_X, default 0.01
     A_y - (optional) hyperparameters for loss_Y, default 1
     A_z - (optional) hyperparameters for loss_Z, default 0.5
     print_every - (optional) how often to print loss, default 100
-    inference - (optional) if True than will return new dataset instead of loss
-
     returns:
     if inference - False :
-    float - A_x * L_x+ A_y * L_y + A_z * L_z 
+    float - A_x * L_x + A_y * L_y + A_z * L_z 
     if inference - True:
     x_hat_sensitive, x_hat_non_sensitive, y_hat_sensitive, y_hat_non_sensitive
     """
