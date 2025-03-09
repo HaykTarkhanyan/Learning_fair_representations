@@ -15,3 +15,6 @@ There are 2 implementations on which this code is based on.
 
 Date finished - 20.08.2020
 
+# Update (10.03.2025)
+I was too dumb to understand that the "awful" for loops were actually what enabled Numba (I had no idea what it was at the time) to translate the code to C. I'm not sure if the vectorization actually resulted in a speedup.
+See you in 5 years. Cheers.
